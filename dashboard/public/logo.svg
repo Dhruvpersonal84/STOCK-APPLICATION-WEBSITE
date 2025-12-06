@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="609" height="80" viewBox="0 0 420 120" role="img" aria-label="StockSphere Logo">
+  <defs>
+    <!-- Colors you can edit -->
+    <style>
+      .icon-bg { fill: #0ea5e9; }        /* Blue */
+      .icon-line { fill: none; stroke: #ffffff; stroke-width: 6; stroke-linecap: round; }
+      .brand { font: 700 42px 'Segoe UI', sans-serif; fill: #0f172a; }
+      .brand-light { font-weight: 400; }
+    </style>
+  </defs>
+
+  <!-- Left Icon Circle -->
+  <circle cx="60" cy="60" r="52" class="icon-bg"/>
+
+  <!-- Stock / Sphere Icon -->
+  <polyline points="35,80 50,60 65,70 85,45" class="icon-line"/>
+  <circle cx="85" cy="45" r="6" fill="#ffffff"/>
+
+  <!-- Brand Name -->
+  <text x="130" y="72" class="brand">
+    Stock<tspan class="brand-light">Sphere</tspan>
+  </text>
+</svg>
