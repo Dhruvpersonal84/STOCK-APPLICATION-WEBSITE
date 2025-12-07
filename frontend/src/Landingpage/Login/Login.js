@@ -14,7 +14,7 @@ export default function Login() {
 
     try {
       const res = await axios.post(
-        "http://localhost:8552/api/Login", // 
+        "https://stock-application-website.onrender.com/api/Login", // 
         data
       );
 
@@ -22,7 +22,7 @@ export default function Login() {
       localStorage.setItem("username", res.data.name);
 
       toast.success("Login Successful!");
-      window.location.href = `http://localhost:3001/?name=${res.data.name}`;  // Redirect to the dashboard 
+      window.location.href = `https://stock-application-website-dashboard.vercel.app/?name=${res.data.name}`;  // Redirect to the dashboard 
 
     } catch (err) {
       console.error(err);

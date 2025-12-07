@@ -36,7 +36,7 @@ export default function Menu() {
   const handleProfileClick = (index) => {
     localStorage.removeItem("token");
     localStorage.removeItem("username");
-    navigate("http://localhost:3000/");
+    navigate("https://stock-application-website.vercel.app/");
   };
 
   const activemenuclass = "menu selected"

@@ -10,7 +10,7 @@ const authRoute = require("./Auth/authRoute");
 const app = express();
 
 const PORT = process.env.PORT || 8552 ;
-const URL = process.env.MONGO_URL ;
+const URL = process.env.MONGO_URL1 ;
 
 app.use(cors());
 app.use(bodyparser.json());

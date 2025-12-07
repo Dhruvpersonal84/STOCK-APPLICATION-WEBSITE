@@ -6,7 +6,7 @@ export default function Oders() {
     let [order, setorder] = useState([])
 
     useEffect(() => {
-        axios.get("http://localhost:8552/allorders").then((res) => {
+        axios.get("https://stock-application-website.onrender.com/allorders").then((res) => {
             setorder(res.data);
         })
     })

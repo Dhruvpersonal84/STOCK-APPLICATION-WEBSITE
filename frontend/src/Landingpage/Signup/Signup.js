@@ -13,7 +13,7 @@ export default function Signup() {
     e.preventDefault();
     try {
       const res = await axios.post(
-        "http://localhost:8552/api/Signup",
+        "https://stock-application-website.onrender.com/api/Signup",
         data
       );
 

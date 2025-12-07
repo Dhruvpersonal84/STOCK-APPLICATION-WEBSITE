@@ -6,7 +6,7 @@ export default function Holdings() {
     let [holdings,setholdings]= useState([]);
 
     useEffect(()=>{
-        axios.get("http://localhost:8552/allholdings").then((res)=>{
+        axios.get("https://stock-application-website.onrender.com/allholdings").then((res)=>{
             console.log(res.data);
             setholdings(res.data);
         })

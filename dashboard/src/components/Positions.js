@@ -6,7 +6,7 @@ export default function Positions() {
     let [position,setPosition] = useState([])
 
     useEffect(()=>{
-        axios.get("http://localhost:8552/allposition").then((res)=>{
+        axios.get("https://stock-application-website.onrender.com/allposition").then((res)=>{
             console.log(res.data);
             setPosition(res.data);
         })
